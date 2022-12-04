@@ -1,0 +1,7 @@
+{
+  "name": "iondb",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
