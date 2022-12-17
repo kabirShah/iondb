@@ -1,5 +1,5 @@
 {
-  "name": "eComApp",
+  "name": "iCommerceApp",
   "version": "0.0.1",
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
@@ -19,6 +19,7 @@
     "@angular/platform-browser": "^15.0.0",
     "@angular/platform-browser-dynamic": "^15.0.0",
     "@angular/router": "^15.0.0",
+    "@awesome-cordova-plugins/core": "^6.2.0",
     "@awesome-cordova-plugins/splash-screen": "^6.2.0",
     "@awesome-cordova-plugins/sqlite": "^6.2.0",
     "@awesome-cordova-plugins/sqlite-db-copy": "^6.2.0",
