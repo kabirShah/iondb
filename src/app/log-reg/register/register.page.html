@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start" (click)="clickedBack()">
+      <ion-icon name="arrow-back-outline"></ion-icon>
+    </ion-buttons>
+    <ion-title>Register</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-list lines="none">
+    <form [formGroup]="regForm" (ngSubmit)="registerForm()">
+      <ion-item>
+        <ion-label position="floating">First name</ion-label>
+        <ion-input formControlName="fsname" type="text" required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Last name</ion-label>
+        <ion-input formControlName="lsname" type="text" required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Email</ion-label>
+        <ion-input formControlName="email" type="text" required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Phone number</ion-label>
+        <ion-input formControlName="phnumber" type="text" required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Password</ion-label>
+        <ion-input formControlName="password" type="passowrd" required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Confirm password</ion-label>
+        <ion-input formControlName="cfpassword" type="passowrd" required></ion-input>
+      </ion-item>
+      <ion-button type="submit" expand="full" color="light">Register</ion-button>
+    </form>
+  </ion-list>
+</ion-content>
